@@ -1,0 +1,13 @@
+{
+  "name": "ui-forms",
+  "version": "1.0.0",
+  "description": "Стиль элементов форм",
+  "author": "LiquidHub.ru",
+  "type": "snippets",
+  "homepage": "https://github.com/insales-components/ui-forms",
+  "props": {
+    "common": false,
+    "liquid": true
+  },
+  "dependencies": {}
+}

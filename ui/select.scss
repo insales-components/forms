@@ -1,0 +1,31 @@
+@mixin select {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px;
+}
+
+select {
+  @include select;
+  max-width: 100%;
+  &:focus {
+    outline: none;
+  }
+}
+.slct {
+    color: $color-link-primary;
+    padding: 5px 25px 5px 13px;
+    border: 1px solid;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%23144184' d='M4.83 5.86l4.05-4.1a.47.47 0 0 0 0-.65.45.45 0 0 0-.64 0L4.5 4.88.78 1.11a.45.45 0 0 0-.64 0 .47.47 0 0 0 0 .65l4.05 4.1c.18.18.47.18.64 0z'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 7px) center;
+    background-size: 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    &::-ms-expand {
+      display: none;
+    }
+}
+
+[name="variant_id"] {
+  display: none;
+}
